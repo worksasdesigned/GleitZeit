@@ -1,0 +1,133 @@
+<resources>
+    <string id="AppName">para_face</string>
+
+    <bitmap id="LauncherIcon" filename="images/launcher_icon.png" />
+<bitmaps>
+		<bitmap id="id_bt" filename="images/bt.png"/>
+		 <palette>
+	       <color>FFFFFF</color>
+	       <color>000000</color>
+	       <color>AAAAAA</color>
+	       <color>00AAFF</color>
+	       <color>0000FF</color>
+    	 </palette>
+    </bitmaps> 
+<bitmaps>
+		<bitmap id="id_nobt" filename="images/nobt.png"/>
+		 <palette>
+	       <color>FFFFFF</color>
+	       <color>000000</color>
+	       <color>AAAAAA</color>
+	       <color>555555</color>
+	       <color>FF0000</color>
+	       <color>00AAFF</color>
+	       <color>0000FF</color>
+    	 </palette>
+    </bitmaps> 
+
+
+<bitmaps>
+		<bitmap id="id_red" filename="images/para_red.png"/>
+		 <palette>
+	       <color>FFFFFF</color>
+	       <color>000000</color>
+	       <color>AAAAAA</color>
+	       <color>555555</color>
+	       <color>FF0000</color>
+	       <color>AA0000</color>
+    	 </palette>
+    </bitmaps> 
+<bitmaps>
+		<bitmap id="id_green" filename="images/para_green.png"/>
+		 <palette>
+	
+	       <color>FFFFFF</color>
+	       <color>000000</color>
+	       <color>AAAAAA</color>
+	       <color>555555</color>
+	       <color>00FF00</color>
+	       <color>00AA00</color>
+    	 </palette>
+    </bitmaps> 
+<bitmaps>
+		<bitmap id="id_blue" filename="images/para_blue.png"/>
+	 <palette>
+	       <color>FFFFFF</color>
+	       <color>000000</color>
+	       <color>AAAAAA</color>
+	       <color>555555</color>
+	       <color>00AAFF</color>
+	       <color>0000FF</color>
+    	 </palette>
+    </bitmaps> 
+  <bitmaps>
+		<bitmap id="id_pink" filename="images/para_pink.png"/>
+		 <palette>
+
+	       <color>FFFFFF</color>
+	       <color>000000</color>
+	       <color>AAAAAA</color>
+	       <color>555555</color>
+	       <color>FF00FF</color>
+	       <color>AA00FF</color>
+    	 </palette>
+    </bitmaps> 
+   <bitmaps>
+		<bitmap id="id_yellow" filename="images/para_yellow.png"/>
+		 <palette>
+	       
+	       <color>FFFFFF</color>
+	       <color>000000</color>
+	       <color>AAAAAA</color>
+	       <color>555555</color>
+	       <color>FFAA00</color>
+	       <color>FF5500</color>
+    	 </palette>
+    </bitmaps> 
+
+<bitmaps>
+<bitmap id="id_black" filename="images/para_black.png"/>
+		 <palette>
+	     
+	       <color>FFFFFF</color>
+	       <color>000000</color>
+	       <color>AAAAAA</color>
+	       <color>555555</color>
+    	 </palette>
+    </bitmaps>  
+<bitmaps>
+		<bitmap id="id_dayone" filename="images/dayone.png"/>
+		 <palette>
+	       <color>555555</color>
+	       <color>FFFFFF</color>
+	       <color>000000</color>
+    	 </palette>
+    </bitmaps>
+    <bitmaps>
+    <bitmap id="id_daythree" filename="images/daythree.png"/>
+		 <palette>
+	       <color>555555</color>
+	       <color>FFFFFF</color>
+	       <color>000000</color>
+    	 </palette>
+    </bitmaps>
+    <bitmaps>
+   <bitmap id="id_dayfive" filename="images/dayfive.png"/>
+		 <palette>
+	       <color>555555</color>
+	       <color>FFFFFF</color>
+	       <color>000000</color>
+    	 </palette>
+    </bitmaps>
+    <bitmaps>
+	<bitmap id="id_dayseven" filename="images/dayseven.png"/>
+		 <palette>
+	       <color>555555</color>
+	       <color>FFFFFF</color>
+	       <color>AAAAAA</color>
+	       <color>000000</color>
+    	 </palette>
+    </bitmaps>
+
+
+</resources>
