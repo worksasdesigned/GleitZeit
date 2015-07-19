@@ -4,7 +4,7 @@ using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 
 
-// para_watch Version 0.9
+// para_watch Version 0.92
 // AWI 14.07.2015
 // shows different paraglidercolors depending to activity status
 // shows bluetooth indicator
@@ -15,6 +15,12 @@ using Toybox.Lang as Lang;
 // have fun!
 // ispamsammler@googlemail.com
 
+// V0.92 16.07.2015
+// added Sun & Moon (light) as second indicator
+// bugfix 12AM 12 o'clock. it's 12 PM ... damn 12h System!
+// added new trophy-icons as birds instead of trophys
+
+        
 
 class para_faceView extends Ui.WatchFace {
 var pic_back;
@@ -68,34 +74,34 @@ var device_settings;
       // Para_image als Activity indicator        
       var activity = ActivityMonitor.getInfo();
       moveBarLevel = activity.moveBarLevel;
-	  var stepsGoal = activity.stepGoal;
-	  var stepsLive = activity.steps; 
-	      activproz = ( ( ( 100 * activity.steps.toFloat() ) / activity.stepGoal ) );
-          if (activ_alt != activproz){	      
+      var stepsGoal = activity.stepGoal;
+      var stepsLive = activity.steps; 
+          activproz = ( ( ( 100 * activity.steps.toFloat() ) / activity.stepGoal ) );
+          if (activ_alt != activproz){        
            pic_back = null;
            activ_alt = activproz;
-	        if (activproz >= 100) {
-	            pic_back     = Ui.loadResource(Rez.Drawables.id_green);
-	        } else if (activproz >= 75) {
-	            pic_back     = Ui.loadResource(Rez.Drawables.id_blue);
-	        } else if (activproz >= 60) {
-	            pic_back     = Ui.loadResource(Rez.Drawables.id_black);
-	        } else if (activproz >= 40) {
+            if (activproz >= 100) {
+                pic_back     = Ui.loadResource(Rez.Drawables.id_green);
+            } else if (activproz >= 75) {
+                pic_back     = Ui.loadResource(Rez.Drawables.id_blue);
+            } else if (activproz >= 60) {
+                pic_back     = Ui.loadResource(Rez.Drawables.id_black);
+            } else if (activproz >= 40) {
                 pic_back     = Ui.loadResource(Rez.Drawables.id_yellow);    
-	        } else if (activproz >= 25) {
-	            pic_back     = Ui.loadResource(Rez.Drawables.id_pink);
-	        } else {
-	            pic_back     = Ui.loadResource(Rez.Drawables.id_red);
-	        }
-	        }	                   
+            } else if (activproz >= 25) {
+                pic_back     = Ui.loadResource(Rez.Drawables.id_pink);
+            } else {
+               pic_back     = Ui.loadResource(Rez.Drawables.id_red);
+            }
+            }                      
         dc.drawBitmap(1, 1, pic_back); // Para zeichnen
 
         // MOVEBAR als Steuer-Linien zeigen
         dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
         if (moveBarLevel >=1) {
-	        dc.drawLine(50,116, 105,140);
-	        dc.drawLine(50,115, 105,139);
-	        dc.drawLine(50,114, 105,140);    
+            dc.drawLine(50,116, 105,140);
+            dc.drawLine(50,115, 105,139);
+            dc.drawLine(50,114, 105,140);    
         }
         if (moveBarLevel >=2) {
             dc.drawLine(80,121, 113,142);
@@ -103,9 +109,9 @@ var device_settings;
             dc.drawLine(79,119, 113,142);   
         }
         if (moveBarLevel >=3) {
-	        dc.drawLine(98,122, 118,141);
-	        dc.drawLine(97,121, 118,140);
-	        dc.drawLine(96,121, 117,141);          
+            dc.drawLine(98,122, 118,141);
+            dc.drawLine(97,121, 118,140);
+            dc.drawLine(96,121, 117,141);          
         }
         if (moveBarLevel >=4) {
             dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT);
@@ -127,14 +133,14 @@ var device_settings;
         hour = clockTime.hour;
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
         if( !device_settings.is24Hour ) { // AM/PM anzeige
-           if (hour == 0) {hour = 12;}
-           if (hour >= 13) {
+           if (hour >= 12) {
                 hour = hour - 12;
                 dc.drawText(dc.getWidth(), dc.getHeight()/2 -18 , Gfx.FONT_SMALL , "pm" , Gfx.TEXT_JUSTIFY_RIGHT );
                 }
                 else{
                 dc.drawText(dc.getWidth(), dc.getHeight()/2  -18, Gfx.FONT_SMALL , "am" , Gfx.TEXT_JUSTIFY_RIGHT );
                 }
+            if (hour == 0) {hour = 12;}    
             hour  = Lang.format("$1$",[hour.format("%2d")]);
             min   = Lang.format("$1$",[min.format("%02d")]); 
         }
@@ -152,7 +158,13 @@ var device_settings;
         //get date & display
         var dateStrings = Time.Gregorian.info( Time.now(), Time.FORMAT_MEDIUM);
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-        var datum_print =   dateStrings.day.toString() + " " + dateStrings.month.toString();
+        var datum_print;
+        if( !device_settings.is24Hour ){ //MONAT Tag oder TAG  Monat
+            datum_print =    dateStrings.month.toString() + " " + dateStrings.day.toString();
+        } else {
+            datum_print =   dateStrings.day.toString() + " " + dateStrings.month.toString();             
+        }     
+        
         dc.drawText(dc.getWidth()/2, 195, Gfx.FONT_XTINY, datum_print, Gfx.TEXT_JUSTIFY_CENTER);
         dc.drawText(dc.getWidth() /2, 170 , Gfx.FONT_MEDIUM, dateStrings.day_of_week.toString(), Gfx.TEXT_JUSTIFY_CENTER); 
 
@@ -169,10 +181,33 @@ var device_settings;
              // draw achivements
              drawHis(dc);   
             var dateInfo = Time.Gregorian.info( Time.now(), Time.FORMAT_SHORT );
-               // Sekundenpunkt 
-               dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_YELLOW);
+               // Sekundenpunkt
+               var sec = dateInfo.sec;
+               if  ( sec <= 12 ){
+                    dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_YELLOW); // Sonne
+                } else if ( sec <= 18 ){
+                    dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_ORANGE); // Sonnenuntergang   
+                } else if (sec <= 42 ) { 
+                    dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_DK_GRAY); // Mond
+                } else if (sec <= 47 ) {
+                    dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_ORANGE); // Sonnenaufgang
+                 } else {
+                     dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_YELLOW); // Sonne
+               }               
                dc.fillCircle(min_array[dateInfo.sec][0],min_array[dateInfo.sec][1],13);
-               dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_RED);
+             
+             if  ( sec <= 12 ){
+                    dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_RED); // Sonne
+                } else if ( sec <= 18 ){
+                    dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_DK_RED); // Sonnenuntergang   
+                } else if (sec <= 42 ) { 
+                    dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE); // Mond
+                } else if (sec <= 47 ) {
+                    dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_DK_RED); // Sonnenaufgang
+                 } else {
+                     dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_RED); // Sonne
+               }
+               
                dc.drawCircle(min_array[dateInfo.sec][0],min_array[dateInfo.sec][1],14);
                dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
               
@@ -197,9 +232,9 @@ var device_settings;
  
                // Show steps
                // Show steps and stepsGoal als numbers
-			   // dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-			   // dc.drawText(3, 114 , Gfx.FONT_XTINY,stepsLive.toString() , Gfx.TEXT_JUSTIFY_LEFT);
-			   // dc.drawText(215, 114 , Gfx.FONT_XTINY, stepsGoal.toString() , Gfx.TEXT_JUSTIFY_RIGHT );   		          
+               // dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+               // dc.drawText(3, 114 , Gfx.FONT_XTINY,stepsLive.toString() , Gfx.TEXT_JUSTIFY_LEFT);
+               // dc.drawText(215, 114 , Gfx.FONT_XTINY, stepsGoal.toString() , Gfx.TEXT_JUSTIFY_RIGHT );                     
         } // Ende fast updates
 
     }
@@ -224,10 +259,10 @@ function drawHis(dc){
   }
   
   // Draw trophy
-  if (j == 7) {  dc.drawBitmap(27, 133, pic_dayseven);}
-  else if (j >= 5) { dc.drawBitmap(27, 133, pic_dayfive);}
-  else if (j >= 3) { dc.drawBitmap(27, 133, pic_daythree);}
-  else if (j >= 1) { dc.drawBitmap(27, 133, pic_dayone);}
+  if (j == 7) {  dc.drawBitmap(23, 133, pic_dayseven);}
+  else if (j >= 5) { dc.drawBitmap(23, 133, pic_dayfive);}
+  else if (j >= 3) { dc.drawBitmap(23, 133, pic_daythree);}
+  else if (j >= 1) { dc.drawBitmap(23, 133, pic_dayone);}
 }
     
 
@@ -241,7 +276,7 @@ function drawHis(dc){
     //! The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() {
             fast_updates = true;
-              Ui.requestUpdate();
+            Ui.requestUpdate();
     }
 
     //! Terminate any active timers and prepare for slow updates.
