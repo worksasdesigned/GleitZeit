@@ -7,7 +7,6 @@
 		 <palette>
 	       <color>FFFFFF</color>
 	       <color>000000</color>
-	       <color>AAAAAA</color>
 	       <color>00AAFF</color>
 	       <color>0000FF</color>
     	 </palette>
@@ -17,8 +16,6 @@
 		 <palette>
 	       <color>FFFFFF</color>
 	       <color>000000</color>
-	       <color>AAAAAA</color>
-	       <color>555555</color>
 	       <color>FF0000</color>
 	       <color>00AAFF</color>
 	       <color>0000FF</color>
@@ -29,10 +26,7 @@
 <bitmaps>
 		<bitmap id="id_red" filename="images/para_red.png"/>
 		 <palette>
-	       <color>FFFFFF</color>
 	       <color>000000</color>
-	       <color>AAAAAA</color>
-	       <color>555555</color>
 	       <color>FF0000</color>
 	       <color>AA0000</color>
     	 </palette>
@@ -40,11 +34,7 @@
 <bitmaps>
 		<bitmap id="id_green" filename="images/para_green.png"/>
 		 <palette>
-	
-	       <color>FFFFFF</color>
 	       <color>000000</color>
-	       <color>AAAAAA</color>
-	       <color>555555</color>
 	       <color>00FF00</color>
 	       <color>00AA00</color>
     	 </palette>
@@ -52,10 +42,7 @@
 <bitmaps>
 		<bitmap id="id_blue" filename="images/para_blue.png"/>
 	 <palette>
-	       <color>FFFFFF</color>
 	       <color>000000</color>
-	       <color>AAAAAA</color>
-	       <color>555555</color>
 	       <color>00AAFF</color>
 	       <color>0000FF</color>
     	 </palette>
@@ -63,11 +50,7 @@
   <bitmaps>
 		<bitmap id="id_pink" filename="images/para_pink.png"/>
 		 <palette>
-
-	       <color>FFFFFF</color>
 	       <color>000000</color>
-	       <color>AAAAAA</color>
-	       <color>555555</color>
 	       <color>FF00FF</color>
 	       <color>AA00FF</color>
     	 </palette>
@@ -75,11 +58,7 @@
    <bitmaps>
 		<bitmap id="id_yellow" filename="images/para_yellow.png"/>
 		 <palette>
-	       
-	       <color>FFFFFF</color>
 	       <color>000000</color>
-	       <color>AAAAAA</color>
-	       <color>555555</color>
 	       <color>FFAA00</color>
 	       <color>FF5500</color>
     	 </palette>
@@ -88,8 +67,6 @@
 <bitmaps>
 <bitmap id="id_black" filename="images/para_black.png"/>
 		 <palette>
-	     
-	       <color>FFFFFF</color>
 	       <color>000000</color>
 	       <color>AAAAAA</color>
 	       <color>555555</color>
@@ -129,5 +106,12 @@
     	 </palette>
     </bitmaps>
 
-
+    <bitmaps>
+	<bitmap id="id_pilot" filename="images/pilot.png"/>
+		 <palette>
+	       <color>555555</color>
+	       <color>AAAAAA</color>
+	       <color>000000</color>
+    	 </palette>
+    </bitmaps>
 </resources>

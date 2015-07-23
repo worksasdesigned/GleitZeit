@@ -1,166 +1,187 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="50" pc="268435458" symbol="onLayout"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="52" pc="268435481" symbol="onLayout"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="53" pc="268435524" symbol="onLayout"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="54" pc="268435567" symbol="onLayout"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="55" pc="268435610" symbol="onLayout"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="56" pc="268435653" symbol="onLayout"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="57" pc="268435696" symbol="onLayout"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="68" pc="268435745" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="69" pc="268435781" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="70" pc="268435793" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="71" pc="268435816" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="75" pc="268435829" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="76" pc="268435848" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="77" pc="268435864" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="78" pc="268435874" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="79" pc="268435884" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="80" pc="268435924" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="81" pc="268435944" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="82" pc="268435953" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="83" pc="268435969" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="84" pc="268435986" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="86" pc="268436049" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="88" pc="268436112" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="90" pc="268436175" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="92" pc="268436238" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="94" pc="268436284" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="97" pc="268436330" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="100" pc="268436360" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="101" pc="268436396" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="102" pc="268436413" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="103" pc="268436445" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="104" pc="268436477" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="106" pc="268436512" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="107" pc="268436529" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="108" pc="268436561" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="109" pc="268436593" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="111" pc="268436628" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="112" pc="268436645" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="113" pc="268436677" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="114" pc="268436709" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="116" pc="268436744" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="117" pc="268436761" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="118" pc="268436797" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="119" pc="268436829" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="121" pc="268436864" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="122" pc="268436881" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="123" pc="268436917" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="124" pc="268436949" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="125" pc="268436981" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="129" pc="268437016" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="130" pc="268437033" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="132" pc="268437033" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="133" pc="268437043" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="134" pc="268437053" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="135" pc="268437089" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="136" pc="268437107" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="137" pc="268437118" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="138" pc="268437128" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="141" pc="268437206" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="143" pc="268437281" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="143" pc="268437292" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="144" pc="268437302" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="145" pc="268437354" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="148" pc="268437409" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="149" pc="268437461" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="153" pc="268437513" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="154" pc="268437549" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="155" pc="268437624" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="156" pc="268437660" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="159" pc="268437735" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="160" pc="268437791" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="161" pc="268437827" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="162" pc="268437827" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="163" pc="268437845" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="165" pc="268437891" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="168" pc="268437934" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="169" pc="268437994" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="172" pc="268438069" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="175" pc="268438080" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="176" pc="268438100" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="178" pc="268438133" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="182" pc="268438163" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="183" pc="268438177" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="185" pc="268438233" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="186" pc="268438243" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="187" pc="268438254" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="189" pc="268438304" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="191" pc="268438354" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="193" pc="268438404" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="195" pc="268438443" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="197" pc="268438479" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="199" pc="268438542" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="200" pc="268438553" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="202" pc="268438603" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="204" pc="268438653" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="206" pc="268438703" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="208" pc="268438742" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="211" pc="268438778" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="212" pc="268438841" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="215" pc="268438877" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="216" pc="268438902" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="217" pc="268438933" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="220" pc="268438999" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="221" pc="268439035" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="222" pc="268439067" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="222" pc="268439078" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="223" pc="268439117" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="224" pc="268439149" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="225" pc="268439181" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="225" pc="268439192" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="226" pc="268439242" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="227" pc="268439281" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="228" pc="268439317" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="229" pc="268439367" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="230" pc="268439403" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="231" pc="268439422" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="244" pc="268439476" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="245" pc="268439495" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="246" pc="268439499" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="247" pc="268439506" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="248" pc="268439513" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="251" pc="268439520" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="253" pc="268439544" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="254" pc="268439585" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="254" pc="268439591" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="255" pc="268439604" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="257" pc="268439617" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="262" pc="268439634" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="262" pc="268439645" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="263" pc="268439689" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="264" pc="268439733" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="265" pc="268439777" symbol="drawHis"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="278" pc="268439816" symbol="onExitSleep"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="279" pc="268439826" symbol="onExitSleep"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="284" pc="268439845" symbol="onEnterSleep"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="285" pc="268439855" symbol="onEnterSleep"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="29" pc="268440202" symbol="&lt;init&gt;"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="41" pc="268442616" symbol="&lt;init&gt;"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="43" pc="268442626" symbol="&lt;init&gt;"/>
-<entry filename="Z:\\f3\\para_face\\source\\para_faceApp.mc" lineNum="15" pc="268439881" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="5" pc="268442776" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268442655" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="11" pc="268442664" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="12" pc="268442673" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="13" pc="268442682" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="14" pc="268442691" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="15" pc="268442700" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="16" pc="268442709" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="17" pc="268442718" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="18" pc="268442727" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="19" pc="268442736" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="20" pc="268442745" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="21" pc="268442754" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="22" pc="268442763" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="31" pc="268439922" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="32" pc="268439936" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="33" pc="268440033" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="34" pc="268440048" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="35" pc="268440100" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="36" pc="268440146" symbol="WatchFace"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="48" pc="268435458" symbol="onLayout"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="50" pc="268435481" symbol="onLayout"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="51" pc="268435524" symbol="onLayout"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="52" pc="268435567" symbol="onLayout"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="53" pc="268435610" symbol="onLayout"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="54" pc="268435653" symbol="onLayout"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="55" pc="268435696" symbol="onLayout"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="56" pc="268435739" symbol="onLayout"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="67" pc="268435788" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="68" pc="268435824" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="69" pc="268435836" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="70" pc="268435859" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="74" pc="268435872" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="75" pc="268435891" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="76" pc="268435907" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="77" pc="268435917" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="78" pc="268435927" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="79" pc="268435967" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="80" pc="268435987" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="81" pc="268435996" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="82" pc="268436012" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="83" pc="268436029" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="85" pc="268436092" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="87" pc="268436155" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="89" pc="268436218" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="91" pc="268436281" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="93" pc="268436327" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="96" pc="268436373" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="97" pc="268436403" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="101" pc="268436433" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="102" pc="268436469" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="103" pc="268436501" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="104" pc="268436533" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="106" pc="268436565" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="107" pc="268436597" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="108" pc="268436629" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="110" pc="268436661" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="111" pc="268436693" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="112" pc="268436725" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="114" pc="268436757" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="115" pc="268436793" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="116" pc="268436825" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="118" pc="268436857" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="119" pc="268436893" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="120" pc="268436925" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="121" pc="268436957" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="125" pc="268436989" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="126" pc="268437025" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="127" pc="268437042" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="128" pc="268437074" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="129" pc="268437106" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="131" pc="268437141" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="132" pc="268437158" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="133" pc="268437190" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="134" pc="268437222" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="136" pc="268437257" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="137" pc="268437274" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="138" pc="268437306" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="139" pc="268437338" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="141" pc="268437373" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="142" pc="268437390" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="143" pc="268437426" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="144" pc="268437458" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="146" pc="268437493" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="147" pc="268437510" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="148" pc="268437546" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="149" pc="268437578" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="150" pc="268437610" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="154" pc="268437645" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="155" pc="268437662" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="157" pc="268437662" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="158" pc="268437672" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="159" pc="268437682" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="160" pc="268437718" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="161" pc="268437736" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="162" pc="268437747" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="163" pc="268437757" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="166" pc="268437835" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="168" pc="268437910" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="168" pc="268437921" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="169" pc="268437931" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="170" pc="268437983" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="173" pc="268438038" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="174" pc="268438090" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="178" pc="268438142" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="179" pc="268438178" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="180" pc="268438253" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="181" pc="268438289" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="184" pc="268438364" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="185" pc="268438420" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="186" pc="268438456" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="187" pc="268438456" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="188" pc="268438474" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="190" pc="268438520" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="193" pc="268438563" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="194" pc="268438623" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="197" pc="268438698" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="200" pc="268438709" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="201" pc="268438729" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="203" pc="268438762" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="207" pc="268438792" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="208" pc="268438806" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="210" pc="268438862" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="211" pc="268438872" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="212" pc="268438883" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="214" pc="268438933" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="216" pc="268438983" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="218" pc="268439033" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="220" pc="268439072" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="222" pc="268439108" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="224" pc="268439171" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="225" pc="268439182" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="227" pc="268439232" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="229" pc="268439282" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="231" pc="268439332" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="233" pc="268439371" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="236" pc="268439407" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="237" pc="268439470" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="240" pc="268439506" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="242" pc="268439531" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="243" pc="268439588" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="244" pc="268439651" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="248" pc="268439702" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="249" pc="268439738" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="250" pc="268439770" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="250" pc="268439781" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="251" pc="268439820" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="252" pc="268439852" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="253" pc="268439884" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="253" pc="268439895" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="254" pc="268439945" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="255" pc="268439984" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="256" pc="268440020" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="257" pc="268440070" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="258" pc="268440106" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="259" pc="268440125" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="272" pc="268440179" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="273" pc="268440198" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="274" pc="268440202" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="275" pc="268440209" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="276" pc="268440216" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="279" pc="268440223" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="281" pc="268440247" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="282" pc="268440288" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="282" pc="268440294" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="283" pc="268440307" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="285" pc="268440320" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="290" pc="268440337" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="290" pc="268440348" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="291" pc="268440392" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="292" pc="268440436" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="293" pc="268440480" symbol="drawHis"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="306" pc="268440519" symbol="onExitSleep"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="307" pc="268440529" symbol="onExitSleep"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="312" pc="268440548" symbol="onEnterSleep"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="313" pc="268440558" symbol="onEnterSleep"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="29" pc="268440905" symbol="&lt;init&gt;"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="41" pc="268443319" symbol="&lt;init&gt;"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceView.mc" lineNum="43" pc="268443329" symbol="&lt;init&gt;"/>
+<entry filename="Z:\\f3\\para_face\\source\\para_faceApp.mc" lineNum="15" pc="268440584" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="5" pc="268443488" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268443358" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="11" pc="268443367" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="12" pc="268443376" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="13" pc="268443385" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="14" pc="268443394" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="15" pc="268443403" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="16" pc="268443412" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="17" pc="268443421" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="18" pc="268443430" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="19" pc="268443439" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="20" pc="268443448" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="21" pc="268443457" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="22" pc="268443466" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="23" pc="268443475" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="32" pc="268440625" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="33" pc="268440639" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="34" pc="268440736" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="35" pc="268440751" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="36" pc="268440803" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="37" pc="268440849" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
@@ -209,7 +230,7 @@
 <entry id="8389548" symbol="&lt;tha&gt;"/>
 <entry field="true" id="8388807" symbol="BLE_REQUEST_TOO_LARGE"/>
 <entry id="8388819" method="true" symbol="makeImageRequest"/>
-<entry id="23" module="true" symbol="Menus"/>
+<entry id="24" module="true" symbol="Menus"/>
 <entry id="3" module="true" symbol="globals_Rez_Drawables"/>
 <entry id="8388630" module="true" symbol="Toybox_Position"/>
 <entry id="8389354" symbol="&lt;dut&gt;"/>
@@ -254,7 +275,7 @@
 <entry id="8388659" method="true" symbol="testAbs"/>
 <entry field="true" id="8388989" symbol="dutyCycle"/>
 <entry id="8389043" object="true" symbol="ProgressBar"/>
-<entry field="true" id="38" symbol="AppName"/>
+<entry field="true" id="40" symbol="AppName"/>
 <entry field="true" id="8388927" symbol="SECONDS_PER_YEAR"/>
 <entry id="8389418" object="true" symbol="CommonData"/>
 <entry id="8389114" method="true" symbol="getType"/>
@@ -270,7 +291,7 @@
 <entry id="8389184" method="true" symbol="drawLine"/>
 <entry id="8389250" symbol="timestamp"/>
 <entry id="8388877" method="true" symbol="createSession"/>
-<entry field="true" id="25" symbol="LauncherIcon"/>
+<entry field="true" id="26" symbol="LauncherIcon"/>
 <entry id="8388616" module="true" symbol="Toybox_Communications"/>
 <entry field="true" id="8389380" symbol="OBSCURE_TOP"/>
 <entry field="true" id="8389201" symbol="MSG_ID_SEARCH_TIMEOUT"/>
@@ -286,7 +307,7 @@
 <entry field="true" id="8389289" symbol="GEO_DEG"/>
 <entry field="true" id="8389420" symbol="DEVICE_STATE_CLOSED"/>
 <entry id="8388926" symbol="dayHash"/>
-<entry field="true" id="35" symbol="id_daythree"/>
+<entry field="true" id="36" symbol="id_daythree"/>
 <entry field="true" id="8389248" symbol="rssi"/>
 <entry id="8389118" symbol="mDirection"/>
 <entry field="true" id="8389103" symbol="behavior"/>
@@ -382,7 +403,7 @@
 <entry id="8389142" method="true" symbol="getProfile"/>
 <entry id="8389188" method="true" symbol="fillRectangle"/>
 <entry id="8388729" object="true" symbol="Info"/>
-<entry id="24" module="true" symbol="Layouts"/>
+<entry id="25" module="true" symbol="Layouts"/>
 <entry id="8388710" object="true" symbol="Stats"/>
 <entry field="true" id="8389152" symbol="FONT_XTINY"/>
 <entry id="8389189" method="true" symbol="fillRoundedRectangle"/>
@@ -391,10 +412,10 @@
 <entry field="true" id="8388830" symbol="SPORT_GENERIC"/>
 <entry field="true" id="8388999" symbol="KEY_DOWN_LEFT"/>
 <entry id="8388885" method="true" symbol="getGeometry"/>
-<entry field="true" id="26" symbol="id_bt"/>
+<entry field="true" id="27" symbol="id_bt"/>
 <entry id="8389082" method="true" symbol="onNextMode"/>
 <entry field="true" id="8389551" symbol="PRESS_TYPE_UP"/>
-<entry field="true" id="11" symbol="device_settings"/>
+<entry field="true" id="18" symbol="device_settings"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="8389419" symbol="DEVICE_STATE_DEAD"/>
 <entry field="true" id="8388969" symbol="TONE_MSG"/>
@@ -452,11 +473,11 @@
 <entry field="true" id="8388748" symbol="averageHeartRate"/>
 <entry id="8389568" method="true" symbol="runTest"/>
 <entry id="8389327" symbol="september"/>
-<entry field="true" id="16" symbol="pic_dayone"/>
+<entry field="true" id="12" symbol="pic_dayone"/>
 <entry id="8389132" method="true" symbol="setFont"/>
 <entry field="true" id="8389519" symbol="torque"/>
 <entry field="true" id="8389529" symbol="userProfileSelected"/>
-<entry field="true" id="19" symbol="pic_dayseven"/>
+<entry field="true" id="15" symbol="pic_dayseven"/>
 <entry field="true" id="8389039" symbol="NUMBER_PICKER_CALORIES"/>
 <entry id="8389541" method="true" symbol="onCancel"/>
 <entry field="true" id="8388968" symbol="TONE_STOP"/>
@@ -509,7 +530,7 @@
 <entry field="true" id="8388929" symbol="SECONDS_PER_HOUR"/>
 <entry field="true" id="8389208" symbol="MSG_ID_PROXIMITY_SEARCH"/>
 <entry id="8389336" symbol="friday"/>
-<entry field="true" id="32" symbol="id_yellow"/>
+<entry field="true" id="33" symbol="id_yellow"/>
 <entry id="8388655" method="true" symbol="testInstanceof"/>
 <entry field="true" id="8388980" symbol="TONE_FAILURE"/>
 <entry id="8388613" module="true" symbol="Toybox_System"/>
@@ -536,7 +557,7 @@
 <entry field="true" id="8388914" symbol="moveBarLevel"/>
 <entry field="true" id="8389202" symbol="MSG_ID_CHANNEL_RF_FREQUENCY"/>
 <entry id="8388933" method="true" symbol="moment"/>
-<entry field="true" id="30" symbol="id_blue"/>
+<entry field="true" id="31" symbol="id_blue"/>
 <entry id="8388669" method="true" symbol="testBitwiseXor"/>
 <entry field="true" id="8389486" symbol="numberOfVisits"/>
 <entry id="8389194" method="true" symbol="getFontHeight"/>
@@ -629,7 +650,7 @@
 <entry id="8389135" symbol="mKey"/>
 <entry field="true" id="8388703" symbol="callbackCalled"/>
 <entry id="8388706" method="true" symbol="insertString"/>
-<entry field="true" id="37" symbol="id_dayseven"/>
+<entry field="true" id="38" symbol="id_dayseven"/>
 <entry field="true" id="8388993" symbol="KEY_ZOUT"/>
 <entry field="true" id="8389311" symbol="accuracy"/>
 <entry field="true" id="8389218" symbol="MSG_CODE_EVENT_TX"/>
@@ -692,7 +713,7 @@
 <entry field="true" id="8388694" symbol="count1"/>
 <entry id="8389360" symbol="&lt;hun&gt;"/>
 <entry id="8388931" symbol="getMonthHash"/>
-<entry field="true" id="18" symbol="pic_dayfive"/>
+<entry field="true" id="14" symbol="pic_dayfive"/>
 <entry field="true" id="8389146" symbol="sleepTime"/>
 <entry field="true" id="8388996" symbol="KEY_FIND"/>
 <entry field="true" id="8388803" symbol="BLE_SERVER_TIMEOUT"/>
@@ -716,20 +737,20 @@
 <entry field="true" id="8389414" symbol="BATT_STATUS_LOW"/>
 <entry field="true" id="8388846" symbol="SPORT_MOUNTAINEERING"/>
 <entry id="8388908" object="true" symbol="History"/>
-<entry field="true" id="15" symbol="activ_alt"/>
+<entry field="true" id="22" symbol="activ_alt"/>
 <entry field="true" id="8388731" symbol="startTime"/>
 <entry field="true" id="8388721" symbol="min"/>
 <entry field="true" id="8389197" symbol="MSG_ID_UNASSIGN_CHANNEL"/>
 <entry id="8389278" symbol="mPropertiesChanged"/>
 <entry id="8" object="true" symbol="para_faceView"/>
 <entry field="true" id="8388970" symbol="TONE_ALERT_HI"/>
-<entry field="true" id="20" symbol="pic_bt"/>
+<entry field="true" id="16" symbol="pic_bt"/>
 <entry field="true" id="8389174" symbol="TEXT_JUSTIFY_LEFT"/>
 <entry field="true" id="10" symbol="pic_back"/>
 <entry id="8388923" method="true" symbol="today"/>
 <entry field="true" id="8389412" symbol="BATT_STATUS_GOOD"/>
 <entry field="true" id="8389222" symbol="MSG_CODE_EVENT_CHANNEL_CLOSED"/>
-<entry field="true" id="29" symbol="id_green"/>
+<entry field="true" id="30" symbol="id_green"/>
 <entry field="true" id="8389505" symbol="userProfileId"/>
 <entry id="8388679" method="true" symbol="testObjectLock"/>
 <entry id="8389095" method="true" symbol="addItem"/>
@@ -782,7 +803,7 @@
 <entry id="8389053" object="true" symbol="BitmapResource"/>
 <entry field="true" id="8388982" symbol="TONE_POWER"/>
 <entry field="true" id="8388842" symbol="SPORT_CROSS_COUNTRY_SKIING"/>
-<entry field="true" id="36" symbol="id_dayfive"/>
+<entry field="true" id="37" symbol="id_dayfive"/>
 <entry field="true" id="8389310" symbol="position"/>
 <entry id="8388633" module="true" symbol="ActivityMonitor"/>
 <entry id="8389249" symbol="thresholdConfiguration"/>
@@ -841,19 +862,19 @@
 <entry field="true" id="8389487" symbol="state"/>
 <entry id="8389353" symbol="&lt;dan&gt;"/>
 <entry field="true" id="8388840" symbol="SPORT_TRAINING"/>
-<entry field="true" id="31" symbol="id_pink"/>
+<entry field="true" id="32" symbol="id_pink"/>
 <entry field="true" id="8388981" symbol="TONE_SUCCESS"/>
 <entry id="8389514" method="true" symbol="getCalculatedWheelDistance"/>
 <entry id="8388985" method="true" symbol="playTone"/>
 <entry field="true" id="8388736" symbol="currentLocation"/>
 <entry field="true" id="8388916" symbol="startOfDay"/>
 <entry field="true" id="8388752" symbol="maxCadence"/>
-<entry id="22" method="true" symbol="drawHis"/>
+<entry id="23" method="true" symbol="drawHis"/>
 <entry id="8389338" symbol="minute"/>
 <entry id="8389086" symbol="mProgressValue"/>
 <entry field="true" id="8389199" symbol="MSG_ID_CHANNEL_ID"/>
 <entry field="true" id="8388836" symbol="SPORT_BASKETBALL"/>
-<entry field="true" id="13" symbol="fast_updates"/>
+<entry field="true" id="20" symbol="fast_updates"/>
 <entry id="8388626" module="true" symbol="Toybox_UserProfile"/>
 <entry id="8388898" method="true" symbol="cos"/>
 <entry id="8389282" method="true" symbol="getProperty"/>
@@ -927,7 +948,7 @@
 <entry id="8389254" method="true" symbol="getDeviceConfig"/>
 <entry id="8389233" object="true" symbol="ChannelAssignment"/>
 <entry id="8388628" module="true" symbol="Toybox_Ant"/>
-<entry field="true" id="33" symbol="id_black"/>
+<entry field="true" id="34" symbol="id_black"/>
 <entry id="8389090" object="true" symbol="MenuItem"/>
 <entry field="true" id="8389271" symbol="radioFrequency"/>
 <entry field="true" id="8389016" symbol="SWIPE_RIGHT"/>
@@ -949,10 +970,11 @@
 <entry field="true" id="8388733" symbol="timerTime"/>
 <entry field="true" id="8388755" symbol="swimEfficency"/>
 <entry id="8388935" method="true" symbol="duration"/>
+<entry field="true" id="11" symbol="pic_pilot"/>
 <entry field="true" id="8389263" symbol="DEFAULT_DEVICE_TYPE"/>
 <entry id="8388728" method="true" symbol="getActivityInfo"/>
 <entry field="true" id="8388751" symbol="averageCadence"/>
-<entry field="true" id="12" symbol="min_array"/>
+<entry field="true" id="19" symbol="min_array"/>
 <entry field="true" id="8389473" symbol="separatePedalSmoothnessSupport"/>
 <entry field="true" id="8388697" symbol="timer2"/>
 <entry id="8389326" symbol="august"/>
@@ -1005,7 +1027,7 @@
 <entry id="8389120" symbol="mLayout"/>
 <entry id="8388618" module="true" symbol="Toybox_Math"/>
 <entry id="8389332" symbol="monday"/>
-<entry field="true" id="28" symbol="id_red"/>
+<entry field="true" id="29" symbol="id_red"/>
 <entry id="8389343" symbol="minutes"/>
 <entry field="true" id="8389214" symbol="MSG_ID_CHANNEL_RESPONSE_EVENT"/>
 <entry id="8389356" symbol="&lt;fin&gt;"/>
@@ -1024,6 +1046,7 @@
 <entry id="8389512" method="true" symbol="getCalculatedPower"/>
 <entry field="true" id="8388872" symbol="SUB_SPORT_MATCH"/>
 <entry id="8389567" method="true" symbol="getNumberOfTests"/>
+<entry field="true" id="39" symbol="id_pilot"/>
 <entry field="true" id="8389456" symbol="WEIGHT_SCALE_STATUS_SEARCHING"/>
 <entry id="8389136" method="true" symbol="getKey"/>
 <entry id="8388758" object="true" symbol="Number"/>
@@ -1068,7 +1091,7 @@
 <entry id="8388882" method="true" symbol="save"/>
 <entry field="true" id="8389527" symbol="operatingTime"/>
 <entry id="8389106" method="true" symbol="getDimensions"/>
-<entry field="true" id="14" symbol="activproz"/>
+<entry field="true" id="21" symbol="activproz"/>
 <entry id="8388797" method="true" symbol="substring"/>
 <entry id="8389275" method="true" symbol="getApp"/>
 <entry id="8388779" symbol="mMethod"/>
@@ -1080,7 +1103,7 @@
 <entry field="true" id="8388975" symbol="TONE_RESET"/>
 <entry id="8389466" object="true" symbol="WeightScaleCapabilities"/>
 <entry field="true" id="8388954" symbol="SENSOR_HEARTRATE"/>
-<entry field="true" id="21" symbol="pic_nobt"/>
+<entry field="true" id="17" symbol="pic_nobt"/>
 <entry field="true" id="8389207" symbol="MSG_ID_LIB_CONFIG"/>
 <entry id="8389010" object="true" symbol="KeyEvent"/>
 <entry id="8389553" method="true" symbol="onKeyPressed"/>
@@ -1102,13 +1125,13 @@
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry field="true" id="8389504" symbol="crankCadence"/>
 <entry field="true" id="8389291" symbol="GEO_DMS"/>
-<entry field="true" id="34" symbol="id_dayone"/>
+<entry field="true" id="35" symbol="id_dayone"/>
 <entry field="true" id="8388955" symbol="SENSOR_TEMPERATURE"/>
 <entry field="true" id="8388894" symbol="E"/>
 <entry id="8388707" method="true" symbol="insertWithPut"/>
 <entry id="8389131" method="true" symbol="setColor"/>
 <entry id="8389091" symbol="mItems"/>
-<entry field="true" id="17" symbol="pic_daythree"/>
+<entry field="true" id="13" symbol="pic_daythree"/>
 <entry id="8389288" method="true" symbol="validateProperty"/>
 <entry id="8388881" method="true" symbol="isRecording"/>
 <entry id="8389346" symbol="text"/>
@@ -1128,7 +1151,7 @@
 <entry id="8389434" object="true" symbol="CalculatedTorque"/>
 <entry id="8389351" symbol="&lt;valyrian&gt;"/>
 <entry field="true" id="8389402" symbol="distanceUnits"/>
-<entry field="true" id="27" symbol="id_nobt"/>
+<entry field="true" id="28" symbol="id_nobt"/>
 <entry id="8389492" method="true" symbol="getUserProfile"/>
 <entry id="8389021" method="true" symbol="loadResource"/>
 <entry id="8388764" method="true" symbol="format"/>

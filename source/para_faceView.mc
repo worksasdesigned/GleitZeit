@@ -23,7 +23,7 @@ using Toybox.Lang as Lang;
         
 
 class para_faceView extends Ui.WatchFace {
-var pic_back;
+var pic_back, pic_pilot,pic_dayone, pic_daythree, pic_dayfive, pic_dayseven, pic_bt, pic_nobt;
 var device_settings;
     // This ARRAY comes from SectorWatch Project (GitHub) Thx!
     const min_array = [ [109,   0], [120,   1], [132,   2], [143,   5], [153,   9],
@@ -42,8 +42,6 @@ var device_settings;
     var activproz;
     var activ_alt = null;    
     var moveBarLevel= 0;
-    var pic_dayone, pic_daythree, pic_dayfive, pic_dayseven, pic_bt, pic_nobt;
-
 
     //! Load your resources here
     function onLayout(dc) {
@@ -55,7 +53,8 @@ var device_settings;
      pic_dayseven   = Ui.loadResource(Rez.Drawables.id_dayseven);
      pic_bt         = Ui.loadResource(Rez.Drawables.id_bt); 
      pic_nobt       = Ui.loadResource(Rez.Drawables.id_nobt);  
-    } 
+     pic_pilot      = Ui.loadResource(Rez.Drawables.id_pilot);
+     } 
     //! Called when this View is brought to the foreground. Restore
     //! the state of this View and prepare it to be shown. This includes
     //! loading resources into memory.
@@ -94,24 +93,50 @@ var device_settings;
                pic_back     = Ui.loadResource(Rez.Drawables.id_red);
             }
             }                      
-        dc.drawBitmap(1, 1, pic_back); // Para zeichnen
+        dc.drawBitmap(4, 4, pic_back); // Para zeichnen
+        dc.drawBitmap(109, 130, pic_pilot); // Pilot zeichnen
+
+        // steierleinen (grau) zeichnen
+        // MOVEBAR als Steuer-Linien zeigen
+        dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
+            dc.drawLine(50,116, 110,141);
+            dc.drawLine(50,115, 110,140);
+            dc.drawLine(50,114, 109,141);    
+            // zweite Leine
+            dc.drawLine(80,121, 117,144);
+            dc.drawLine(80,120, 117,143);
+            dc.drawLine(79,119, 116,144);   
+            // 3. Leine        
+            dc.drawLine(98,122, 118,144);
+            dc.drawLine(97,121, 118,143);
+            dc.drawLine(96,121, 117,144);          
+            // 4. Leine        
+            dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT);
+            dc.drawLine(128,100, 134,135);
+            dc.drawLine(129,101, 135,136); 
+            // 5. & 6. Leine
+            dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT);
+            dc.drawLine(138,85, 134,135); 
+            dc.drawLine(139,86, 135,136); 
+            dc.drawLine(152,63, 136,135); 
+        
 
         // MOVEBAR als Steuer-Linien zeigen
         dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
         if (moveBarLevel >=1) {
-            dc.drawLine(50,116, 105,140);
-            dc.drawLine(50,115, 105,139);
-            dc.drawLine(50,114, 105,140);    
+            dc.drawLine(50,116, 110,141);
+            dc.drawLine(50,115, 110,140);
+            dc.drawLine(50,114, 109,141);    
         }
         if (moveBarLevel >=2) {
-            dc.drawLine(80,121, 113,142);
-            dc.drawLine(80,120, 113,141);
-            dc.drawLine(79,119, 113,142);   
+            dc.drawLine(80,121, 117,144);
+            dc.drawLine(80,120, 117,143);
+            dc.drawLine(79,119, 116,144);   
         }
         if (moveBarLevel >=3) {
-            dc.drawLine(98,122, 118,141);
-            dc.drawLine(97,121, 118,140);
-            dc.drawLine(96,121, 117,141);          
+            dc.drawLine(98,122, 118,144);
+            dc.drawLine(97,121, 118,143);
+            dc.drawLine(96,121, 117,144);          
         }
         if (moveBarLevel >=4) {
             dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT);
@@ -213,9 +238,12 @@ var device_settings;
               
                // Steps Prozent
                 activproz = activproz.toNumber();
-                activproz = activproz.toString() + "%";   
-                dc.drawText(dc.getWidth()/2,  13 , Gfx.FONT_XTINY, activproz , Gfx.TEXT_JUSTIFY_CENTER );
-               
+                //activproz = stepsLive.toString() + "(" + activproz.toString() + "%" + ")";   
+                dc.drawText(93,  5 , Gfx.FONT_XTINY,stepsLive.toString() , Gfx.TEXT_JUSTIFY_LEFT);
+                dc.drawText(22,  66 , Gfx.FONT_XTINY, activproz.toString() , Gfx.TEXT_JUSTIFY_CENTER);
+                dc.drawText(20 ,  80 , Gfx.FONT_TINY, "%" , Gfx.TEXT_JUSTIFY_CENTER);
+                    
+                
                 // Batterie
                dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE); 
                dc.fillRectangle(155, 136, 20, 10); // weiﬂer Bereich
