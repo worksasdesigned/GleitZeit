@@ -238,8 +238,9 @@ var device_settings;
               
                // Steps Prozent
                 activproz = activproz.toNumber();
+                dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT); 
                 //activproz = stepsLive.toString() + "(" + activproz.toString() + "%" + ")";   
-                dc.drawText(93,  5 , Gfx.FONT_XTINY,stepsLive.toString() , Gfx.TEXT_JUSTIFY_LEFT);
+                dc.drawText(93,  6 , Gfx.FONT_XTINY,stepsLive.toString() , Gfx.TEXT_JUSTIFY_LEFT);
                 dc.drawText(22,  66 , Gfx.FONT_XTINY, activproz.toString() , Gfx.TEXT_JUSTIFY_CENTER);
                 dc.drawText(20 ,  80 , Gfx.FONT_TINY, "%" , Gfx.TEXT_JUSTIFY_CENTER);
                     
