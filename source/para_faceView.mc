@@ -249,13 +249,47 @@ var device_settings;
                 dc.drawText(22,  66 , Gfx.FONT_XTINY, activproz.toString() , Gfx.TEXT_JUSTIFY_CENTER);
                 dc.drawText(20 ,  80 , Gfx.FONT_TINY, "%" , Gfx.TEXT_JUSTIFY_CENTER);
                     
-              
+                drawbatt(dc,170,136); 
+
+
+                    
+        } // Ende fast updates
+
+    }
+   
+     // read 7 day history and get Trophys
+function drawHis(dc){
+  var acthis = ActivityMonitor.getHistory();
+  var bruch = false;
+  var j = 0; // count goals achieved in a row
+  var k = 0; // count goal achieved in total within 7 days (for 0-goal pig)
+  var i = 0; // Counter
+  
+  // LOOP at history
+ for( i = 0; i < acthis.size(); i ++)
+  {
+      if ( (acthis[i].steps.toFloat() / acthis[i].stepGoal) >= 1 )    {
+       if (!bruch) { j++;} 
+       k++; //  
+      } else {  
+      bruch = true; // found a non achieved daily goal. so break
+      } 
+  }
+  
+  // Draw trophy
+  if (j == 7) {  dc.drawBitmap(23, 133, pic_dayseven);}
+  else if (j >= 5) { dc.drawBitmap(23, 133, pic_dayfive);}
+  else if (j >= 3) { dc.drawBitmap(23, 133, pic_daythree);}
+  else if (j >= 1) { dc.drawBitmap(23, 133, pic_dayone);}
+}
+    
+function drawbatt(dc,batx,baty){
               // Batterie neu
               var batt = Sys.getSystemStats().battery;
               batt = batt.toNumber();
-              var batx, baty;
-              batx = 170;
-              baty = 136;  
+              //var batx, baty;
+              //batx = 170;
+              //baty = 136;  
               // Rahmen zeichnen  
               dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE); 
               dc.fillRectangle(batx, baty, 31, 12); // weiﬂer Bereich BODY
@@ -295,41 +329,8 @@ var device_settings;
                     dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT);
                     dc.drawText(batx+14 ,  baty+5 , Gfx.FONT_XTINY, batt.toString() , Gfx.TEXT_JUSTIFY_LEFT|Gfx.TEXT_JUSTIFY_VCENTER);
                  } 
-                
-               }
-
-                    
-        } // Ende fast updates
-
-    }
-   
-     // read 7 day history and get Trophys
-function drawHis(dc){
-  var acthis = ActivityMonitor.getHistory();
-  var bruch = false;
-  var j = 0; // count goals achieved in a row
-  var k = 0; // count goal achieved in total within 7 days (for 0-goal pig)
-  var i = 0; // Counter
-  
-  // LOOP at history
- for( i = 0; i < acthis.size(); i ++)
-  {
-      if ( (acthis[i].steps.toFloat() / acthis[i].stepGoal) >= 1 )    {
-       if (!bruch) { j++;} 
-       k++; //  
-      } else {  
-      bruch = true; // found a non achieved daily goal. so break
-      } 
-  }
-  
-  // Draw trophy
-  if (j == 7) {  dc.drawBitmap(23, 133, pic_dayseven);}
-  else if (j >= 5) { dc.drawBitmap(23, 133, pic_dayfive);}
-  else if (j >= 3) { dc.drawBitmap(23, 133, pic_daythree);}
-  else if (j >= 1) { dc.drawBitmap(23, 133, pic_dayone);}
-}
-    
-
+                } // Ende BATT
+} // Ende drawbattfunction
 
     //! Called when this View is removed from the screen. Save the
     //! state of this View here. This includes freeing resources from
