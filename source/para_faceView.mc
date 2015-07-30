@@ -71,9 +71,6 @@ var device_settings;
       // black is beautiful CLEAR the screen.
       dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
       dc.clear();  
-      var batt = Sys.getSystemStats().battery;
-          batt = batt.toNumber();  
-      
 
       // Para_image als Activity indicator        
       var activity = ActivityMonitor.getInfo();
@@ -254,61 +251,53 @@ var device_settings;
                     
               
               // Batterie neu
+              var batt = Sys.getSystemStats().battery;
+              batt = batt.toNumber();
+              var batx, baty;
+              batx = 170;
+              baty = 136;  
               // Rahmen zeichnen  
               dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE); 
-              dc.fillRectangle(170, 136, 31, 12); // weißer Bereich BODY
+              dc.fillRectangle(batx, baty, 31, 12); // weißer Bereich BODY
               dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_DK_GRAY); 
-              dc.fillRectangle(201, 139, 3, 6); //  BOBBL
-              dc.drawRectangle(170, 136, 31, 12); // Rahmen
+              dc.fillRectangle(batx + 31, baty +3, 3, 6); //  BOBBL
+              dc.drawRectangle(batx, baty, 31, 12); // Rahmen
               //Jetzt Füllstand zeichnen
                
                if (batt >= 50) { // großen Block zeichnen
                 dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);
-                dc.fillRectangle(171, 137, 14, 10);
-                if (batt >= 60){dc.fillRectangle(186, 137, 2, 10);}
-                if (batt >= 70){dc.fillRectangle(189, 137, 2, 10);}
-                if (batt >= 80){dc.fillRectangle(192, 137, 2, 10);}
-                if (batt >= 90){dc.fillRectangle(195, 137, 2, 10);}
-                if (batt >= 100){dc.fillRectangle(171, 137, 29, 10);
+                dc.fillRectangle(batx +1, baty+1, 14, 10);
+                if (batt >= 60){dc.fillRectangle(batx+16, baty+1, 2, 10);}
+                if (batt >= 70){dc.fillRectangle(batx+19, baty+1, 2, 10);}
+                if (batt >= 80){dc.fillRectangle(batx+22, baty+1, 2, 10);}
+                if (batt >= 90){dc.fillRectangle(batx+25, baty+1, 2, 10);}
+                if (batt >= 100){dc.fillRectangle(batx+1, baty+1, 29, 10);
                    dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-                   dc.drawText(173 ,  140 , Gfx.FONT_XTINY, "100" , Gfx.TEXT_JUSTIFY_LEFT|Gfx.TEXT_JUSTIFY_VCENTER); 
+                   dc.drawText(batx+3 ,  baty+4 , Gfx.FONT_XTINY, "100" , Gfx.TEXT_JUSTIFY_LEFT|Gfx.TEXT_JUSTIFY_VCENTER); 
                 }
                }else { // kleiner 50% akku
                 dc.setColor(Gfx.COLOR_DK_GREEN, Gfx.COLOR_DK_GREEN);
-                if (batt >= 40){dc.fillRectangle(182, 137, 4, 10);} 
+                if (batt >= 40){dc.fillRectangle(batx+12, baty+1, 4, 10);} 
                 dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_YELLOW);
-                if (batt >= 30){dc.fillRectangle(178, 137, 4, 10);} 
+                if (batt >= 30){dc.fillRectangle(batx+8, baty+1, 4, 10);} 
                 dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_ORANGE);
-                if (batt >= 20){dc.fillRectangle(175, 137, 4, 10);} 
+                if (batt >= 20){dc.fillRectangle(batx+5, baty+1, 4, 10);} 
                 dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
-                if (batt >= 11){dc.fillRectangle(171, 137, 4, 10);} // 10% Rest
+                if (batt >= 11){dc.fillRectangle(batx+1, baty+1, 4, 10);} // 10% Rest
                 else{
                  if (sec %2 == 1){   
-                    dc.fillRectangle(171, 137, 3, 10);
+                    dc.fillRectangle(batx+1, baty+1, 3, 10);
                  }else{
-                   dc.drawText(173 ,  141 , Gfx.FONT_XTINY, "LOW" , Gfx.TEXT_JUSTIFY_LEFT|Gfx.TEXT_JUSTIFY_VCENTER);  
+                   dc.drawText(batx+3 ,  baty+5 , Gfx.FONT_XTINY, "LOW" , Gfx.TEXT_JUSTIFY_LEFT|Gfx.TEXT_JUSTIFY_VCENTER);  
                  }
                 }
                 if (batt >=11) { // Batt Text ausgeben zwischen 49% und 11%
                     dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT);
-                    dc.drawText(184 ,  141 , Gfx.FONT_XTINY, batt.toString() , Gfx.TEXT_JUSTIFY_LEFT|Gfx.TEXT_JUSTIFY_VCENTER);
+                    dc.drawText(batx+14 ,  baty+5 , Gfx.FONT_XTINY, batt.toString() , Gfx.TEXT_JUSTIFY_LEFT|Gfx.TEXT_JUSTIFY_VCENTER);
                  } 
                 
                }
-  
-              // Batterie alt
-              // dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE); 
-              // dc.fillRectangle(155, 136, 20, 10); // weißer Bereich
-              // if (batt >= 50){dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_DK_GRAY);}
-              // dc.fillRectangle(174, 139, 3, 5); // bobbel
-              // dc.drawRectangle(155, 136, 20, 10); // rahmen
-              // if (batt >= 50){dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);}
-              // else if (batt >= 25) {dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_ORANGE);}
-              // else {dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_RED);}  
-              // dc.fillRectangle(156, 137, (batt.toNumber() / 5 - 1),8); // Batterie Bar
-              // dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-              // batt = batt.toString() + "%";
-              // dc.drawText(195,130 , Gfx.FONT_XTINY, batt , Gfx.TEXT_JUSTIFY_CENTER );
+
                     
         } // Ende fast updates
 
