@@ -4,7 +4,7 @@ using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 
 
-// para_watch Version 0.92
+// para_watch Version 1.2
 // AWI 14.07.2015
 // shows different paraglidercolors depending to activity status
 // shows bluetooth indicator
@@ -19,11 +19,15 @@ using Toybox.Lang as Lang;
 // added Sun & Moon (light) as second indicator
 // bugfix 12AM 12 o'clock. it's 12 PM ... damn 12h System!
 // added new trophy-icons as birds instead of trophys
+// V1.2 
+// Minimized grafix
+// changed battery status icon
+// added sleep mode icon
 
         
 
 class para_faceView extends Ui.WatchFace {
-var pic_back, pic_pilot,pic_dayone, pic_daythree, pic_dayfive, pic_dayseven, pic_bt, pic_nobt;
+var pic_back, pic_pilot, pic_pilotzzz,pic_dayone, pic_daythree, pic_dayfive, pic_dayseven, pic_bt, pic_nobt;
 var device_settings;
     // This ARRAY comes from SectorWatch Project (GitHub) Thx!
     const min_array = [ [109,   0], [120,   1], [132,   2], [143,   5], [153,   9],
@@ -54,6 +58,7 @@ var device_settings;
      pic_bt         = Ui.loadResource(Rez.Drawables.id_bt); 
      pic_nobt       = Ui.loadResource(Rez.Drawables.id_nobt);  
      pic_pilot      = Ui.loadResource(Rez.Drawables.id_pilot);
+     pic_pilotzzz   = Ui.loadResource(Rez.Drawables.id_pilotzzz);
      } 
     //! Called when this View is brought to the foreground. Restore
     //! the state of this View and prepare it to be shown. This includes
@@ -94,8 +99,11 @@ var device_settings;
             }
             }                      
         dc.drawBitmap(4, 4, pic_back); // Para zeichnen
-        dc.drawBitmap(109, 130, pic_pilot); // Pilot zeichnen
-
+        if (!activity.isSleepMode){
+          dc.drawBitmap(109, 130, pic_pilot); // Pilot zeichnen
+        }else{   
+          dc.drawBitmap(109, 130, pic_pilotzzz); // Schläfer zeichnen
+        }
         // steierleinen (grau) zeichnen
         // MOVEBAR als Steuer-Linien zeigen
         dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
@@ -240,30 +248,68 @@ var device_settings;
                 activproz = activproz.toNumber();
                 dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT); 
                 //activproz = stepsLive.toString() + "(" + activproz.toString() + "%" + ")";   
-                dc.drawText(93,  6 , Gfx.FONT_XTINY,stepsLive.toString() , Gfx.TEXT_JUSTIFY_LEFT);
+                dc.drawText(93,  5 , Gfx.FONT_XTINY,stepsLive.toString() , Gfx.TEXT_JUSTIFY_LEFT);
                 dc.drawText(22,  66 , Gfx.FONT_XTINY, activproz.toString() , Gfx.TEXT_JUSTIFY_CENTER);
                 dc.drawText(20 ,  80 , Gfx.FONT_TINY, "%" , Gfx.TEXT_JUSTIFY_CENTER);
                     
+              
+              // Batterie neu
+              // Rahmen zeichnen  
+              dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE); 
+              dc.fillRectangle(170, 136, 31, 12); // weißer Bereich BODY
+              dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_DK_GRAY); 
+              dc.fillRectangle(201, 139, 3, 6); //  BOBBL
+              dc.drawRectangle(170, 136, 31, 12); // Rahmen
+              //Jetzt Füllstand zeichnen
+               
+               if (batt >= 50) { // großen Block zeichnen
+                dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);
+                dc.fillRectangle(171, 137, 14, 10);
+                if (batt >= 60){dc.fillRectangle(186, 137, 2, 10);}
+                if (batt >= 70){dc.fillRectangle(189, 137, 2, 10);}
+                if (batt >= 80){dc.fillRectangle(192, 137, 2, 10);}
+                if (batt >= 90){dc.fillRectangle(195, 137, 2, 10);}
+                if (batt >= 100){dc.fillRectangle(171, 137, 29, 10);
+                   dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+                   dc.drawText(173 ,  140 , Gfx.FONT_XTINY, "100" , Gfx.TEXT_JUSTIFY_LEFT|Gfx.TEXT_JUSTIFY_VCENTER); 
+                }
+               }else { // kleiner 50% akku
+                dc.setColor(Gfx.COLOR_DK_GREEN, Gfx.COLOR_DK_GREEN);
+                if (batt >= 40){dc.fillRectangle(182, 137, 4, 10);} 
+                dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_YELLOW);
+                if (batt >= 30){dc.fillRectangle(178, 137, 4, 10);} 
+                dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_ORANGE);
+                if (batt >= 20){dc.fillRectangle(175, 137, 4, 10);} 
+                dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+                if (batt >= 11){dc.fillRectangle(171, 137, 4, 10);} // 10% Rest
+                else{
+                 if (sec %2 == 1){   
+                    dc.fillRectangle(171, 137, 3, 10);
+                 }else{
+                   dc.drawText(173 ,  141 , Gfx.FONT_XTINY, "LOW" , Gfx.TEXT_JUSTIFY_LEFT|Gfx.TEXT_JUSTIFY_VCENTER);  
+                 }
+                }
+                if (batt >=11) { // Batt Text ausgeben zwischen 49% und 11%
+                    dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT);
+                    dc.drawText(184 ,  141 , Gfx.FONT_XTINY, batt.toString() , Gfx.TEXT_JUSTIFY_LEFT|Gfx.TEXT_JUSTIFY_VCENTER);
+                 } 
                 
-                // Batterie
-               dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE); 
-               dc.fillRectangle(155, 136, 20, 10); // weißer Bereich
-               if (batt >= 50){dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_DK_GRAY);}
-               dc.fillRectangle(174, 139, 3, 5); // bobbel
-               dc.drawRectangle(155, 136, 20, 10); // rahmen
-               if (batt >= 50){dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);}
-               else if (batt >= 25) {dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_ORANGE);}
-               else {dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_RED);}  
-               dc.fillRectangle(156, 137, (batt.toNumber() / 5 - 1),8); // Batterie Bar
-               dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-               batt = batt.toString() + "%";
-               dc.drawText(195,130 , Gfx.FONT_XTINY, batt , Gfx.TEXT_JUSTIFY_CENTER );
- 
-               // Show steps
-               // Show steps and stepsGoal als numbers
-               // dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-               // dc.drawText(3, 114 , Gfx.FONT_XTINY,stepsLive.toString() , Gfx.TEXT_JUSTIFY_LEFT);
-               // dc.drawText(215, 114 , Gfx.FONT_XTINY, stepsGoal.toString() , Gfx.TEXT_JUSTIFY_RIGHT );                     
+               }
+  
+              // Batterie alt
+              // dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE); 
+              // dc.fillRectangle(155, 136, 20, 10); // weißer Bereich
+              // if (batt >= 50){dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_DK_GRAY);}
+              // dc.fillRectangle(174, 139, 3, 5); // bobbel
+              // dc.drawRectangle(155, 136, 20, 10); // rahmen
+              // if (batt >= 50){dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);}
+              // else if (batt >= 25) {dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_ORANGE);}
+              // else {dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_RED);}  
+              // dc.fillRectangle(156, 137, (batt.toNumber() / 5 - 1),8); // Batterie Bar
+              // dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+              // batt = batt.toString() + "%";
+              // dc.drawText(195,130 , Gfx.FONT_XTINY, batt , Gfx.TEXT_JUSTIFY_CENTER );
+                    
         } // Ende fast updates
 
     }

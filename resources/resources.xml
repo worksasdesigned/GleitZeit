@@ -105,7 +105,15 @@
 	       <color>000000</color>
     	 </palette>
     </bitmaps>
-
+    <bitmaps>
+	<bitmap id="id_pilotzzz" filename="images/pilotzzz.png"/>
+		 <palette>
+	       <color>555555</color>
+	       <color>FFFFFF</color>
+	       <color>AAAAAA</color>
+	       <color>000000</color>
+    	 </palette>
+    </bitmaps>
     <bitmaps>
 	<bitmap id="id_pilot" filename="images/pilot.png"/>
 		 <palette>
