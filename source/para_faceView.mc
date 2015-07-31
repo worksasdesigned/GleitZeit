@@ -327,7 +327,7 @@ function drawbatt(dc,batx,baty){
                 }
                 if (batt >=11) { // Batt Text ausgeben zwischen 49% und 11%
                     dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT);
-                    dc.drawText(batx+14 ,  baty+5 , Gfx.FONT_XTINY, batt.toString() , Gfx.TEXT_JUSTIFY_LEFT|Gfx.TEXT_JUSTIFY_VCENTER);
+                    dc.drawText(batx+15 ,  baty+5 , Gfx.FONT_XTINY, batt.toString() , Gfx.TEXT_JUSTIFY_LEFT|Gfx.TEXT_JUSTIFY_VCENTER);
                  } 
                 } // Ende BATT
 } // Ende drawbattfunction
